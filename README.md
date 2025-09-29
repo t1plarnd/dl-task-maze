@@ -1,4 +1,4 @@
-# Maze Generator 🎮
+# Maze Generator 
 
 ##  Project Description
 This project is a **console-based 2D maze generator**.  
@@ -34,7 +34,7 @@ The maze is represented as a **2D matrix**, where each cell can be one of the fo
 git clone https://github.com/t1plarnd/dl-test-task.git
 ```
 3. Run this program:
-   In case you have Visual Studio 2020, double click on `task.sln`.
+   In case you have Visual Studio 2020, double click on `mazetask.sln`.
    To run from terminal, compile with
    ```
    g++ task/main.cpp -o main
@@ -43,8 +43,30 @@ git clone https://github.com/t1plarnd/dl-test-task.git
    ```
    ./main
    ```
+
 5. Provide input according to instructions in terminal
 ### Input Format
 The program expects input in the following order:
-- ```r``` - Rows
+- ```R``` - Rows
 - ```C``` - Columns
+  
+### Output
+The program prints maze where 
+
+- ```[]```  - its wall
+- ```  ```  - its way
+
+
+### Example
+- ```5``` - Rows
+- ```10``` - Columns
+  
+Resoult:
+
+```text
+[][][][][][][][][][]
+    []            []
+[]  []  [][][][]  []
+[]      []        []
+[][]  [][][][][][][]
+```

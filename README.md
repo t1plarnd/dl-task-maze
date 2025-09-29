@@ -15,9 +15,7 @@ The maze is represented as a **2D matrix**, where each cell can be one of the fo
 - The path must be **safe** (not forcing the player to pass through 3 traps).  
 - If the treasure exists, it must be **reachable**.  
 
----
-
-## ⚙️ How It Works
+##  How It Works
 1. The program takes **maze size** as input (```rows```, ```cols```).  
 2. Generates a maze using randomized algorithms (DFS backtracking / randomized Prim’s algorithm).  
 3. Ensures that all conditions are met:
@@ -26,3 +24,27 @@ The maze is represented as a **2D matrix**, where each cell can be one of the fo
    - Treasure (if present) is reachable.
    - Traps(if present) are placed but don’t block solvability.  
 4. Prints the maze in the console with different **symbols**.
+   
+---
+
+## Instructions
+1. Installation:
+   to install clone this repository
+```
+git clone https://github.com/t1plarnd/dl-test-task.git
+```
+3. Run this program:
+   In case you have Visual Studio 2020, double click on `task.sln`.
+   To run from terminal, compile with
+   ```
+   g++ task/main.cpp -o main
+   ```
+   and then run the compiled program
+   ```
+   ./main
+   ```
+5. Provide input according to instructions in terminal
+### Input Format
+The program expects input in the following order:
+- ```r``` - Rows
+- ```C``` - Columns
